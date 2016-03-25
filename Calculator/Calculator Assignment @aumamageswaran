@@ -1,6 +1,36 @@
 /* Akul Umamageswaran
-    Calculator Assignment
+    SRMS Programming Club: Calculator Assignment
     Four-function calculator (+, -, *, /). Can also find area of triangle and area/circumference of circle.
     3/25/16 */
+    
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main(void) {
+    float firstVal = 0;
+    float secondVal = 0;
+    float triangleBase = 0;
+    float triangleHeight = 0;
+    float circleRadius = 0;
+    float pi = 4.0 * atan(1.0)
+    
+    float additionResult = firstVal + secondVal;
+    float subtractionResult = firstVal - secondVal;
+    float multiplicationResult = firstVal * secondVal;
+    float divisionResult = firstVal / secondVal;
+    float remainder = firstVal % secondVal;
+    
+    float triangleArea = 0.5 * triangleBase * triangleHeight;
+    float circleArea = pi * circleRadius * circleRadius;
+    
+    cout<<"Addition: "<<additionResult<<\n;
+    cout<<"Subtraction: "<<subtractionResult<<\n;
+    cout<<"Multiplication: "<<multiplicationResult<<\n;
+    cout<<"Division: "<<divisionResult<<\n;
+    cout<<"Remainder: "<<remainder<<\n;
+    cout<<"Triangle Area (based on triangleBase and triangleHeight): "<<triangleArea<<\n;
+    cout<<"Circle Area (based on circleRadius): "<<circleArea<<\n;
+    
     
     
