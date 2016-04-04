@@ -6,4 +6,4 @@
 - Everything must be calculated within the program itself
 - You can test using [this website] (http://cpp.sh/), just remember to start with a clean screen!
 - Due next time
-- ** Change: Allow user to input values **
+- **Change: Allow user to input values**
