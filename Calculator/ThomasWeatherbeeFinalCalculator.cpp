@@ -1,3 +1,8 @@
+/* Thomas Weatherbee
+    SRMS Programming Club: Calculator Assignment
+    Four-function calculator (+, -, *, /). Can also find area of triangle and area/circumference of circle. Also has an "all" function.
+    4/5/16 */
+
 #include <iostream>
 #include <string>
 #include <stdlib.h>
