@@ -21,7 +21,7 @@ int main()
     cout << "Please Input the Circle's Radius: ";
     cin >> radius;
     string operation;
-    cout << "Please Input Operation. Say add for addition, subtract for subtraction, multiply for multiplication, divide for division, triangle for triangle area, and circle for circle area and circumference:. ";
+    cout << "Please Input Operation. Say add for addition, subtract for subtraction, multiply for multiplication, divide for division, triangle for triangle area, circle for circle area and circumference, and all for all operations: ";
     cin >> operation;
     float pi = 3.14159265358979323;
     
@@ -52,5 +52,16 @@ int main()
         cout << ( radius * radius ) * pi << "\n";
         cout << ( radius * 2 ) * pi;
     }
+    if ( operation == "all" )
+    {
+        cout << "Addition: " << firstNum + secondNum << "\n";
+        cout << "Subtraction: " << firstNum - secondNum << "\n";
+        cout << "Multiplication: " << firstNum * secondNum << "\n";
+        cout << "Division: " << firstNum / secondNum << "\n";
+        cout << "Triangle Area: " << triBase * triHeight / 2 << "\n";
+        cout << "Circle Area: " << ( radius * radius ) * pi << "\n";
+        cout << "Circle Circumference: " << ( radius * 2 ) * pi;
+    }
+        
     return 0;
 }
