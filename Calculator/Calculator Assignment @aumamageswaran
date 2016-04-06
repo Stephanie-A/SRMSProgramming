@@ -1,19 +1,33 @@
 /* Akul Umamageswaran
     SRMS Programming Club: Calculator Assignment
     Four-function calculator (+, -, *, /). Can also find area of triangle and area/circumference of circle.
-    3/25/16 */
+    4/5/16 */
     
 #include <iostream>
 #include <cmath>
 using namespace std;
 
 int main(void) {
-    float firstVal = 0;
-    float secondVal = 0;
-    float triangleBase = 0;
-    float triangleHeight = 0;
-    float circleRadius = 0;
+    float firstVal;
+    cout<<"Please enter first value. "<<"\n";
+    cin>>firstVal;
+    float secondVal;
+    cout<<"Please enter second value."<<"\n";
+    cin>>secondVal;
+    float triangleBase;
+    cout<<"Please enter triangle base."<<"\n";
+    cin>>triangleBase;
+    float triangleHeight;
+    cout<<"Please enter triangle height."<<"\n";
+    cin>>triangleHeight;
+    float circleRadius;
+    cout<<"Please enter circle radius value."<<"\n";
+    cin>>circleRadius;
     float pi = 4.0 * atan(1.0);
+    string operation;
+    cout<<"Please enter 'add' for addition, 'sub' for subtraction, 'mult' for multiplication, 'div' for division, 'tri' for triangle area calcualation, and 'circle' for circle circumference and area calculation."<<"\n";
+    cin>>operation;
+    
     
     float additionResult = firstVal + secondVal;
     float subtractionResult = firstVal - secondVal;
@@ -23,13 +37,23 @@ int main(void) {
     float triangleArea = 0.5 * triangleBase * triangleHeight;
     float circleArea = pi * circleRadius * circleRadius;
     
-    cout<<"Addition: "<<additionResult<<"\n";
-    cout<<"Subtraction: "<<subtractionResult<<"\n";
-    cout<<"Multiplication: "<<multiplicationResult<<"\n";
-    cout<<"Division: "<<divisionResult<<"\n";
-    cout<<"Triangle Area (based on triangleBase and triangleHeight): "<<triangleArea<<"\n";
-    cout<<"Circle Area (based on circleRadius): "<<circleArea<<"\n";
+    if (operation == "add") {
+        cout<<"Addition Result: "<<additionResult<<"\n";
+    }
+    if (operation == "sub") {
+        cout<<"Subtraction Result: "<<subtractionResult<<"\n";
+    }
+    if (operation == "mult") {
+        cout<<"Multiplication Result: "<<multiplicationResult<<"\n";
+    }
+    if (operation == "div") {
+        cout<<"Division Result: "<<divisionResult<<"\n";
+    }
+    if (operation == "tri") {
+        cout<<"Triangle Area: "<<triangleArea<<"\n";
+    }
+    if (operation == "circle") {
+        cout<<"Circle Area: "<<circleArea<<"\n";
+    }
+    return 0;
 }
-    
-    
-    
