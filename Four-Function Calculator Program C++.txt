@@ -1,0 +1,76 @@
+/* Four-Function Calculator
+     Be able to calculate the area of a triangle and the circumference and area of a circle.
+     4/5/16 */
+#include <iostream>
+using namespace std;
+float sum(float,float);
+
+float subtract(float,float);
+
+float multiply(float,float);
+
+float divide(float,float);
+
+float areaOfTriangle(float,float);
+
+float areaOfCircle(float,float);
+
+float periOfCircle(float, float);
+
+int main() {
+	float a, b, base, radius, height;
+	float base, height, radius;
+	float pi=3.14
+	/* This is my calculator. */
+	cout<<"Hello! I am a four-function calculator!";
+	cout<<"---------------------------------------";
+	/* I will now test the sum function. */
+	cout<<"Give me the value of a.";
+	cin>>a;
+	cout<<"Give me the value of b.";
+	cin>>b;
+	cout<<"The sum of "<<a<<" and "<<b<< " is = "<<sum(a,b);
+	/* I will now test the multiplication function using the same values of a and b. */
+	cout<<"The product of "<<a<<" and "<<b<< " is = "<<multiply(a,b);
+	/* I will now test the division function using the same values of a and b. */
+	cout<<"The quotient of "<<a<<" and "<<b<< " is = "<<divide(a,b);
+	/* I will now test the subtraction function using the same values of a and b. */
+	cout<<"The difference of "<<a<<" and "<<b<< " is = "<<subtract(a,b);
+	/* I will now find the area of a triangle using its base and height. */
+	cout<<"Give me the value of the base.";
+	cin>>base;
+	cout<<"Give me the value of the height.";
+	cin>>height;
+	cout<<"The area of the triangle with base "<<base<<" and height "<<height<< " is = "<<areaOfTriangle(base, height);
+	/*I will now test the area of the circle. */
+	cout<<"Give me the value of the radius.";
+	cin>>radius;
+	cout<<"The area of the circle with a radius of "<<radius<<" is = "<<areaOfCircle(radius);
+	/* I will now test the circumference of the circle. */
+	cout<<"The circumference of the same circle with radius "<<radius<<" is = "<<periOfCircle(radius);
+
+}
+
+float sum(float a, float b) {
+       return a+b;
+}
+float subtract(float a, float b){
+	return a-b;
+}
+float multiply(float a,float b) {
+	return a*b;
+}
+float divide(float a, float b) {
+	return a/b;
+}
+float areaOfTriangle(float base,float height){
+	return 0.5*base*height;
+}
+float areaOfCircle(float radius){
+	float pi=3.14;
+	return pi*radius*radius;
+}
+float periOfCircle(float radius){
+	float pi=3.14;
+	return 2*pi*radius;
+}
