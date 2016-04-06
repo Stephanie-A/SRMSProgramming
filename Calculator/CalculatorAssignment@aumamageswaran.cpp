@@ -35,6 +35,7 @@ int main(void) {
     float divisionResult = firstVal / secondVal;
     
     float triangleArea = 0.5 * triangleBase * triangleHeight;
+    float circleCircumference = 2 * pi * circleRadius;
     float circleArea = pi * circleRadius * circleRadius;
     
     if (operation == "add") {
@@ -53,6 +54,7 @@ int main(void) {
         cout<<"Triangle Area: "<<triangleArea<<"\n";
     }
     if (operation == "circle") {
+        cout<<"Circle Circumference: "<<circleCircumference<<"\n";
         cout<<"Circle Area: "<<circleArea<<"\n";
     }
     return 0;
