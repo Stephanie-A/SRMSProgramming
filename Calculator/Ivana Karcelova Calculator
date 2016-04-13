@@ -1,0 +1,27 @@
+/* Ivana Karcelova
+    SRMS Programming Club: Calculator Assignment
+    Four-function calculator (+, -, *, /). Can also find area of triangle and area/circumference of circle. Also has an "all" function.
+    4/5/16 */
+    #include <ionstream>
+    #include <cmath>
+    using namespace std;
+    int main(void) {
+      float firstVal;
+        cout<<"Please enter first value. "<<"\n";
+        cin>>firstVal;
+      float secondVal;
+        cout<<"Please enter second value. "<<"\n";
+        cin>>secondVal;
+      float triangleBase;
+        cout<<"Please Input the Triangle's Base Length. "<<"\n";
+        cin>>triangleBase;
+      float triangleHeight;
+        cout<<"Please Input the Triangle's Height Length. "<<"\n";
+        cin>>triangleHeight;
+      float circleRadius;
+        cout<<"Please enter circle radius value.  "<<"\n";
+        cin>>circleRadius;
+      float pi = 4.0*atan(1.0)
+      cout<<"Please enter 'add' for addition, 'sub' for subtraction, 'mult' for multiplication, 'div' for division, 'tri' for triangle area calcualation, and 'circle' for circle circumference and area calculation."<<"\n";
+      string operation;
+      
