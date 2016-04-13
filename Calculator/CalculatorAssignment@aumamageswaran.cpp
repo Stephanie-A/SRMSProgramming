@@ -41,19 +41,19 @@ int main(void) {
     if (operation == "add") {
         cout<<"Addition Result: "<<additionResult<<"\n";
     }
-    if (operation == "sub") {
+    else if (operation == "sub") {
         cout<<"Subtraction Result: "<<subtractionResult<<"\n";
     }
-    if (operation == "mult") {
+    else if (operation == "mult") {
         cout<<"Multiplication Result: "<<multiplicationResult<<"\n";
     }
-    if (operation == "div") {
+    else if (operation == "div") {
         cout<<"Division Result: "<<divisionResult<<"\n";
     }
-    if (operation == "tri") {
+    else if (operation == "tri") {
         cout<<"Triangle Area: "<<triangleArea<<"\n";
     }
-    if (operation == "circle") {
+    else if (operation == "circle") {
         cout<<"Circle Circumference: "<<circleCircumference<<"\n";
         cout<<"Circle Area: "<<circleArea<<"\n";
     }
