@@ -1,0 +1,34 @@
+/*Soumya Vavilala
+4/13/16
+This program will calculate the sum of all even Fibonacci numbers up to a maximum value given by the user. It will calculate the sum of all odd Fibonacci 
+numbers up to the given maximum values.*/
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int fib1=0;
+    int fib2=1;
+    int fib=fib1+fib2;
+    int sumEven=0;
+    int sumOdd=1;
+    int maxValue;
+    cout<<"Type in the maximum Fibonacci value you want me to use.";
+    cin>>maxValue;
+    while(fib<=maxValue){
+        if(fib%2==0){
+            sumEven+=fib;
+        }
+	    else{
+            sumOdd+=fib;
+	    }
+        fib1=fib2;
+        fib2=fib;
+        fib=fib1+fib2;
+    }   
+    cout<<"The sum of all the even Fibonacci numbers up to "<<maxValue<<" is "<<sumEven<<".";
+    cout<<" The sum of all the odd Fibonacci numbers up to "<<maxValue<<" is "<<sumOdd<<".";
+    return 0;
+}
+
