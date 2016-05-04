@@ -12,6 +12,8 @@ int main() {                                                                //ma
 
   int num1 = 5;                                                             //declaring an int variable
   float dec1 = 0.5;                                                         //declaring a float variable
+  int arr1[5] = 0;                                                          //declaring array of ints with length 5, inital = 0
+  int arr2[] = {0, 1, 2, 3, 4};                                             //declaring array and initializing the ints
 
   cout << "Hello World!" << endl;                                           //output statement
   cout << num1 * dec1 << endl;                                              //output 2.5
@@ -39,6 +41,9 @@ int main() {                                                                //ma
   }
   
   cout << sum(1, 5) << endl;                                                //calls function and outputs 6
+  
+  for (int i = 0; i < 5; i++)                                               //initializing arr1 with values from arr2
+      arr1[i] = arr2[i];                            
 
 return 0; }                                                                 //end of program
 
