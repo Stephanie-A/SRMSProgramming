@@ -1,0 +1,25 @@
+/* Soumya Vavilala
+	Staircase Program
+	This program will create a staircase using # based on a height, N, 	given by the user.
+	5/3/16 */
+
+#include <iostream>
+using namespace std;
+
+int main() {
+	int N;
+	cin>>N; //N is the height of the staircase.//
+	for (int i=1; i<=N; i++) { 
+		for (int a=1; a<=N-i; a++) { 
+			//This is for creating spaces.//
+			cout<<" ";  
+		}
+		for (int a=1; a<=i; a++) {
+			//This is for creating #.//
+			cout<<"#";
+		}
+		cout<<"\n"; //This is to move to the next line.//
+
+	}	
+return 0;
+}
