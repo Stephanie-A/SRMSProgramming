@@ -4,19 +4,20 @@
     5/4/16 */
 
 #include <iostream>
+#include <cstdint>
 using namespace std;
 
 int main() {
-    long long num;
-    long long largest = 0;
+    int64_t num;
+    int64_t largest = 0;
     
     cin >> num;
-    int halfNum = num / 2;
+    int64_t halfNum = num / 2;
     
-    for (int i = 2; i <= halfNum; i++) {
+    for (long int i = 2; i <= halfNum; i++) {
         bool isPrime = true;
         if (num % i == 0) {
-            for (int a = 2; a <= i-1; a++) {
+            for (long int a = 2; a <= i-1; a++) {
                 if (i % a != 0) {
                     continue;
                 }
