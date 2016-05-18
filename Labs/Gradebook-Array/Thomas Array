@@ -1,0 +1,21 @@
+#include <iostream>
+//#include <string>
+//#include <stdint.h>
+//#include <climits>
+using namespace std;
+
+int main(){
+	int myArray[7] = { 100 };
+	int average;
+	for (int i = 0; i<7; i++){
+		cin >> myArray[i];
+	}
+	int sum = 0;
+	for (int i = 0; i<7; i++){
+		sum += myArray[i];
+		average = sum / 7;
+	}
+	cout << average;
+	//system("PAUSE");
+	return 0;
+}
