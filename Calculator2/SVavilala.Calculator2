@@ -1,0 +1,49 @@
+//Soumya Vavilala; 5/18/16; This is a four-function calculator that can use 3 numbers.// 
+  #include <iostream> 
+  #include <string> 
+  float sum; 
+  float diff; 
+  float prod; 
+  float quot; 
+  using namespace std; 
+   float sumOfNums (float, float, float) { 
+         sum+=CalcNum[i];  
+         return sum;} 
+   float diffOfNums (float, float, float) { 
+         diff+=CalcNum[2]; 
+         diff= diff-CalcNum[1]-CalcNum[0];
+         return diff;}
+   float prodOfNums (float, float, float) {
+	 prod=CalcNum[0]*CalcNum[1]*CalcNum[2];
+	 return prod; }
+   float quotOfNums (float, float, float) {
+	 quot=CalcNum[2]/CalcNum[1]/CalcNum[0];
+	 return quot; }
+   int main() { 
+   string function; 
+   cout<< "Hello! I am your four-function calculator!" 
+   float CalcNum[3] {0}; 
+   for (i=0; i<3; i++) { 
+         cout<<"Please input your new, smallest number.\n"; 
+         cin>> CalcNum[i]; 
+         } 
+   cout<< "I now have your three numbers. What function would you like to use today? Input add to add, sub to subtract, mult to multiply, or div to divide. 
+
+\n"; 
+   cin>>string 
+ 
+ 
+   if (string==add) { 
+         cout<< sumOfNums (CalcNum[0], CalcNum[1], CalcNum[2]); 
+         } 
+   if (string==sub) { 
+       cout<<  diffOfNums (CalcNum[0], CalcNum[1], CalcNum[2]);
+       }
+   if (string==mult) {
+       cout<< prodOfNums (CalcNum[0], CalcNum[1], CalcNum[2]);
+       }
+   if (string==div) 
+       cout<< quotOfNums (CalcNum[0], CalcNum[1], CalcNum[2]);
+       }
+        
+ return 0;} 
