@@ -1,0 +1,49 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+void tBoard(char[3][3]);
+
+int main(){
+	string playerOne;
+	string playerTwo;
+	string goesFirst;
+	string goesSecond;
+	char array1[3][3] = { " " };
+	cout << "Player one will play with x. Who is player one?";
+	cin >> playerOne;
+	cout << "Player two will play with o. Who is player two?";
+	cin >> playerTwo;
+	cout << "Who will go first?";
+	cin >> goesFirst;
+	cout << "Who will go second?";
+	cin >> goesSecond;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+void tBoard(char x[3][3]) {
+	cout << "     |     |     /n";
+	cout << "  "<<x[0][0]<<"  |  "<<x[0][1]<<" |  "<<x[0][1]<<"   /n";
+	cout << "_____|_____|_____/n";
+	cout << "     |     |     /n";
+	cout << "  "<<x[1][0]<<" |   "<<x[1][1]<<" |  "<<x[1][2]<<"    /n";
+	cout << "_____|_____|_____/n";
+	cout << "     |     |     /n";
+	cout << "  "<<x[2][0]<<"  |  "<<x[2][1]<<" |  "<<x[2][2]<<"  /n";
+	cout << "     |     |     /n";
+
+
+}
