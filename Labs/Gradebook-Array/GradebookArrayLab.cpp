@@ -1,6 +1,6 @@
 /* Akul Umamageswaran
     SRMS Programming Club: Gradebook Array Lab
-    Calculates a student's average grades based on seven inputted grades.
+    Calculates a student's average grade based on seven inputted grades.
     5/17/16 */
 
 #include <iostream>
