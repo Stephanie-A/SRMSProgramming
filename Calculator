@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+
+int main () {
+
+cout<<" Please enter num1 ";
+cin >> num1;
+cout<< " Please enter dec1 ";
+cin >> dec1
+cout<< num1*dec1;
+cout<< num1+dec1;
+cout<< num1-dec1
+cout<< num1/dec1
