@@ -3,14 +3,16 @@ using namespace std;
 int main () {
 
 float num1;
-float dec1;
-
-cout<< "Please enter num1";
-cin<< "num1";
-cout<< "Please enter dec 1";
-cin>> "dec1";
-cout<< "num1+dec1";
-cout<< "num1*dec1";
-cout<< "num1/dec1";
-cout<< "num1-dec1";
+float num2;
+cin>>1;
+cin>>2;
+cout<< "Your Choice:"; 
+cin>>choice
+if (choice==1) {
+reslult= num1-num2; 
+}
+else if (choice==2) {
+resut=num1+num2
+}
+cout<< result<<endl;
 }
