@@ -10,3 +10,4 @@ cout<< "num1+dec1";
 cout<< "num1*dec1";
 cout<< "num1/dec1";
 cout<< "num1-dec1";
+}
