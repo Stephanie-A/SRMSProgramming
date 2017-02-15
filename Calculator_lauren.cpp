@@ -15,8 +15,6 @@ else if (choice==2) {
 result=num1+num2
 }
 cout<< result<<endl;
+
+  return 0;
 }
-  return 0; 
-  
-  }
-      
