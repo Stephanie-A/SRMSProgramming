@@ -5,9 +5,9 @@
   float num1;
   float num2;
   cin>>num1;
-  cin>>num2;
+  cin>>num2;  {
   cout<< "Your Choice:"; 
-  cin>>choice
+  cin>>choice }
   if (choice==1) {
   result= num1-num2; 
 
