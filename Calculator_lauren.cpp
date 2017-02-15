@@ -1,7 +1,7 @@
   #include <iostream>
   using namespace std; 
   int main () {
-  int a= 3;
+  int a = 3;
     while (a < 5) {
       
       a++; 
