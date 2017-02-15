@@ -5,7 +5,7 @@
     while (a < 5) {
       
       a++; 
-      cout<< result<<endl;
-
+      cout<< a <<endl;
+    }
   return 0;
 }
