@@ -2,7 +2,8 @@
 using namespace std;
 
 int main () {
-  int a= 2
-for (int i = 0; i ; i++
-     a*=a
-     cout<< a
+  int a= 2;
+for (int ; a = 0; a++)
+     a*=a;
+     cout<< a;
+}
