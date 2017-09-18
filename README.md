@@ -4,7 +4,7 @@
 - Please only upload .cpp files 
 - Title the cpp file with your first name, last initial and write a comment on the first line
 ```
-/* Name
+/*  Name
     Name of Program
     Basic Function of Program
     Date */
